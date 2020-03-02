@@ -1,0 +1,41 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    text-align: center;
+}
+
+hr {
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
+
+.profile-heading {
+    padding: 3rem 1.5rem;
+}
+
+.big-heading {
+    font-size: 6em;
+}
+
+.sub-heading {
+    color: #4a4a4a;
+    font-size: 2em;
+}  
+
+a {
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #080808;
+    cursor: pointer;
+}
