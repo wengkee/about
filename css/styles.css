@@ -4,35 +4,55 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 900;
-    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    line-height: 2rem;
+    font-size: 1rem;
+    padding-left: 0;
 }
 
 hr {
     unicode-bidi: isolate;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
     margin-inline-start: auto;
     margin-inline-end: auto;
     overflow: hidden;
+}
+
+.section {
+    top: 50%;
+    /* height: 50vh; */
+    padding: 1rem 1.5rem;
 }
 
 .profile-heading {
     padding: 3rem 1.5rem;
 }
 
+@media all and (max-width: 500px) {
+    div span {
+        display: block;
+        /* color: #f00; */
+        font-size: 4rem;
+    }
+}
+
 .big-heading {
-    font-size: 6em;
+    font-size: 6rem;
 }
 
 .sub-heading {
     color: #4a4a4a;
-    font-size: 2em;
+    font-size: 2rem;
 }  
 
 a {
     color: #c7c7c7;
     cursor: pointer;
+    text-decoration: none;
 }
 
 a:hover {
