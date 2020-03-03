@@ -23,13 +23,11 @@ hr {
 }
 
 .section {
-    top: 50%;
-    /* height: 50vh; */
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
 }
 
 .profile-heading {
-    padding: 3rem 1.5rem;
+    padding: 1rem 1.5rem;
 }
 
 @media all and (max-width: 500px) {
